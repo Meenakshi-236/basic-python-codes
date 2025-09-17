@@ -1,0 +1,6 @@
+#logical operators
+a=int(input("enter your first number"))
+b=int(input("enter your second number"))
+print(a>0 and b>15)
+print(a>15 or b<5)
+print(not(a==10))
