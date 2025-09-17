@@ -1,0 +1,7 @@
+# airthmetic operators
+a=int(input("enter your first number"))
+b=int(input("enter your second number"))
+print("the sum is:",a+b)
+print("the sub is:",a-b)
+print("the multiplication is:",a*b)
+print("the division is:",a/b)
