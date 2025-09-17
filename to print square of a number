@@ -1,0 +1,4 @@
+#to print square of a number
+num=int(input("enter number"))
+b=num**2
+print(b)
