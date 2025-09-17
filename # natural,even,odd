@@ -1,0 +1,15 @@
+# natural,even,odd
+n=int(input("enter the n value"))
+natural=n*(n+1)//2
+even=n*(n+1)
+odd=n**2
+print("the natural numbers are:",natural)
+print("the even numbers are:",even)
+print("the odd numbers are:",odd)
+n=int(input("enter the n value"))
+natural=n*(n+1)//2
+even=n*(n+1)
+odd=n**2
+print("the natural numbers are:",natural)
+print("the even numbers are:",even)
+print("the odd numbers are:",odd)
