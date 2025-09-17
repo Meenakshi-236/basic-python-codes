@@ -1,0 +1,5 @@
+#minutes to seconds
+minutes=int(input("enter minutes"))
+a=60
+seconds=minutes*a
+print(seconds)
