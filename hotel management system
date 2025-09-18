@@ -1,0 +1,44 @@
+print("Welcome pto ABC Resturant")
+print("please login to get 30% offer")
+user="meena"
+pwd=123
+user=str(input("enter the username"))
+pwd=int(input("enter the password"))
+if(user=="meena" and pwd==123):
+  print("login successfull")
+else:
+  print("invalid data")
+print("""Choose your menu:
+      1.Tiffen items
+      2.Lunch Meals
+      3.Juice
+      4.Snacks
+      5.Display all your Menu
+      6.Food Prices
+      7.Exit""")
+menu=int(input("enter the menu"))
+total_quantity=int(input("enter total quantity"))
+if(menu==1):
+  print("Tiffin items-50 rupees")
+  total_price=50*total_quantity
+  print("the total price:",total_price)    
+elif(menu==2):
+  print("Lunch meals-150 rupees")
+  total_price=150*total_quantity
+  print("the total price:",total_price)                    
+elif(menu==3):
+  print("juice items-60 ")
+  total_price=60*total_quantity
+  print("the total price:",total_price)             
+elif(menu==4):
+  print("Snacks-30 rupees")
+  total_price=30*total_quantity
+  print("the total price:",total_price)
+elif(menu==5):
+  print("Display all your menu")
+elif(menu==6):
+  print("Food items-100 rupees")
+  total_price=100*total_quantity
+  print("the total price:",total_price)            
+else:
+  print("Exit")
