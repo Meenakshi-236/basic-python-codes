@@ -1,0 +1,18 @@
+#simple calculator
+num1=int(input("enter the number1"))
+num2=int(input("enter the number2"))
+choice=input("enter the choice")
+if(choice=='+'):
+    sum=num1+num2
+    print("sum:",sum)
+elif(choice=='-'):
+    sub=num1-num2
+    print("sub:",sub)
+elif(choice=='*'):
+    multiplication=num1*num2
+    print("multiplication:",multiplication)
+elif(choice=='/'):
+    division=num1/num2
+    print("division:",division)
+else:
+    print("error")
